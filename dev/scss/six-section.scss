@@ -5,7 +5,8 @@
   position: relative;
   left: -1px;
   margin: 0 auto;
-  margin-top: 77px;
+  margin-top: 40px;
+  padding-top: 37px;
   .wrapper {
     @extend %wrapper;
     .info {
@@ -126,7 +127,12 @@
             }
           }
         }
+        &:hover {
+          opacity: 0.7;
+          transition: 1s;
+        }
       }
+
       .cell_copy1 {
         display: inline-block;
         float: left;
@@ -219,6 +225,10 @@
             }
           }
         }
+        &:hover {
+          opacity: 0.7;
+          transition: 1s;
+        }
       }
       .cell_copy2 {
         display: inline-block;
@@ -306,13 +316,17 @@
             width: 30px;
             transform: rotate(-45deg);
             position: relative;
-            top: -285px;
+            top: -283px;
             left: 232px;
             background-color:$black-color;
             @media screen and (max-width: 1320px) {
               display: none;
             }
           }
+        }
+        &:hover {
+          opacity: 0.7;
+          transition: 1s;
         }
       }
     }

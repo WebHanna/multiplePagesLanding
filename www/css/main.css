@@ -379,13 +379,13 @@
           display: none; } }
 
 .section_two {
-  margin-top: 50px;
+  padding-top: 50px;
   background-color: #ffffff;
   color: #adadad;
   font-family: Verdana; }
   @media screen and (max-width: 1350px) {
     .section_two {
-      margin-top: 0; } }
+      padding-top: 15px; } }
   .section_two .wrapper .ul {
     justify-content: space-around; }
     .section_two .wrapper .ul .li {
@@ -488,7 +488,8 @@
   font-family: Verdana;
   background-color: #ffffff;
   color: #adadad;
-  margin-top: 75px;
+  padding-top: 35px;
+  margin-top: 40px;
   margin-bottom: 13px; }
   .section_four .wrapper .block {
     display: block; }
@@ -723,7 +724,8 @@
   position: relative;
   left: -1px;
   margin: 0 auto;
-  margin-top: 77px; }
+  margin-top: 40px;
+  padding-top: 37px; }
   .section_six .wrapper .info {
     max-width: 94%; }
   .section_six .wrapper .container {
@@ -826,6 +828,9 @@
           @media screen and (max-width: 1320px) {
             .section_six .wrapper .container .cell .cell_text .transparent {
               display: none; } }
+      .section_six .wrapper .container .cell:hover {
+        opacity: 0.7;
+        transition: 1s; }
     .section_six .wrapper .container .cell_copy1 {
       display: inline-block;
       float: left;
@@ -910,6 +915,9 @@
           @media screen and (max-width: 1320px) {
             .section_six .wrapper .container .cell_copy1 .cell_text .transparent {
               display: none; } }
+      .section_six .wrapper .container .cell_copy1:hover {
+        opacity: 0.7;
+        transition: 1s; }
     .section_six .wrapper .container .cell_copy2 {
       display: inline-block;
       width: 25%; }
@@ -987,12 +995,15 @@
           width: 30px;
           transform: rotate(-45deg);
           position: relative;
-          top: -285px;
+          top: -283px;
           left: 232px;
           background-color: #343434; }
           @media screen and (max-width: 1320px) {
             .section_six .wrapper .container .cell_copy2 .cell_text .transparent {
               display: none; } }
+      .section_six .wrapper .container .cell_copy2:hover {
+        opacity: 0.7;
+        transition: 1s; }
 
 .section_seven {
   background: url("../images/footer.png") center no-repeat;
